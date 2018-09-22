@@ -49,3 +49,16 @@ U+F8Fx | ![][]	| ![][]	| ![][]	| ![][]	| ![][]		| 
 []: png/uF8F9-.png ""
 []: png/uF8FF-.png ""
 
+## Use it on the web!
+
+```css
+@font-face {
+  font-family: 'DIn pIqaD';
+  src: url(dist/DIn pIqaD.woff);
+  unicode-range: U+F8D0-F8E9,U+F8F0-F8F9,U+F8FD-F8FF;
+}
+
+body {
+  font-family: 'DIn pIqaD', fantasy;
+}
+```
