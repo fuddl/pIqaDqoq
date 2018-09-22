@@ -1,6 +1,10 @@
 <img src="logo.png" width="640" alt=" ">
 An open source font implementing [pIqaD](http://www.evertype.com/standards/csur/klingon.html). A klingon writing system.
 
+## Demo
+
+<img src="demo.png" alt="            – " width="1780" />
+
 ## Included Glyphs
 
  ⇲     | 0			| 1			| 2			| 3			| 4			| 5			| 6			| 7			| 8			| 9			| A			| B			| C			| D			| E			| F
