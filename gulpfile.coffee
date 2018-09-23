@@ -8,15 +8,6 @@ cheerio         = require 'gulp-cheerio'
 pug             = require 'gulp-pug'
 svg2png         = require 'gulp-svg2png'
 
-paths = 
-  components: 'build/components'
-  sass: 'build/sass/*.sass'
-  css: 'web/themes/formaphile/css/'
-  res: 'web/themes/formaphile/res/'
-  examples: 'web/themes/formaphile/examples/'
-  icons: 'build/icons/'
-  js: 'web/themes/formaphile/js/'
-
 resizeForPng = ($, file) ->
   $svg = $ 'svg'
   $svg.attr 'height', 500
